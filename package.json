@@ -1,0 +1,28 @@
+{
+  "name": "supasvelte",
+  "version": "0.1.0",
+  "description": "Reactive bindings for Supabase in Svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/coflow-network/supasvelte.git"
+  },
+  "keywords": [
+    "svelte",
+    "supabase",
+    "reactive"
+  ],
+  "author": "Matan Bendix Shenhav",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/coflow-network/supasvelte/issues"
+  },
+  "homepage": "https://github.com/coflow-network/supasvelte#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "svelte": "^3.38.0"
+  }
+}
