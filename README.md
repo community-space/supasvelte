@@ -38,7 +38,7 @@ Now that you have store constructors for your Supabase client, you can create yo
 
 ### Session
 
-The `$session` store is used to reactively track users' login sessions. It uses `supabase.auth.onAuthStateChange` ([see Supabase docs](https://supabase.io/docs/reference/javascript/auth-onauthstatechange)) to keep itself updated regard user session data. If [this feature request]() is accepted, this would synchronize user state accross tabs automatically, but currently it will just work within a tab.
+The `$session` store is used to reactively track users' login sessions. It uses `supabase.auth.onAuthStateChange` ([see Supabase docs](https://supabase.io/docs/reference/javascript/auth-onauthstatechange)) to keep itself updated regard user session data. If [this feature request](https://github.com/supabase/gotrue-js/issues/79) is accepted, this would synchronize user state accross tabs automatically, but currently it will just work within a tab.
 
 **Setup:**
 ```js
@@ -47,7 +47,7 @@ const session = makeSessionStore();
 
 **Data:**
 * `$session.state` - either `signed-out`, `signed-in` or `error`;
-* `$session.data` - when in `signed-in` state - holds the [session data]() which `gotrue-js` passes the `supabase` client; notably, this contains the `user` object.
+* `$session.data` - when in `signed-in` state - holds the [session data](https://supabase.github.io/gotrue-js/interfaces/session.html) which `gotrue-js` passes the `supabase` client; notably, this contains the `user` object.
 
 **Methods:**
  * `session.signin(email, password)` - signs the user in and returns `{ user, error }` 
