@@ -1,6 +1,7 @@
 {
   "name": "supasvelte",
   "version": "0.1.2",
+  "type": "module",
   "description": "Reactive bindings for Supabase in Svelte",
   "main": "index.js",
   "scripts": {
