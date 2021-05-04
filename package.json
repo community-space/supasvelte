@@ -1,6 +1,6 @@
 {
   "name": "supasvelte",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Reactive bindings for Supabase in Svelte",
   "main": "index.mjs",
   "exports": {
